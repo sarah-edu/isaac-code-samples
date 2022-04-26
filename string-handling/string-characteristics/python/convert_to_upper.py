@@ -7,7 +7,7 @@ def convert_to_upper(my_string):
   return converted_string
 
 def test():
-  my_string = input(str("Full name: "))
+  my_string = input("Full name: ")
   converted_string = my_string.upper()
   print(converted_string)
 
